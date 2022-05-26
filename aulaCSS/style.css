@@ -1,0 +1,24 @@
+/*Importação do estilo de fontte */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/*Bloco de comentário CSS  */
+
+/*seletor TAG  */
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d7b8f3;
+}
+
+/* Seletor Classe */
+.cor-roxo{
+  color: blueviolet;
+  font-size: 18px;
+}
+
+.texto-centralizado{
+  text-align: center;
+}
+
+/* Seletor ID */
+#paragrafo-pagina2{
+  color: rgb(126,23,255);
+}

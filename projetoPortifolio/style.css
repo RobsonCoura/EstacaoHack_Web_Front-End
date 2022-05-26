@@ -1,0 +1,77 @@
+/* Seletor TAG */
+
+body{
+  background-color: #0b0033;
+  font-family: Zapf-Chancery, sans-serif;
+}
+
+header{
+  color: white;
+  text-align: center;
+}
+
+/* Seletor Classe */
+
+.container{
+  border: 1px solid white;
+  
+/*   margin: 50px; */
+/* TOP  RIGHT   BOTTOM LEFT  */
+/*  margin: 50px 30px 50px 30px */
+/*  TOP Bottom | Right Left  */
+  margin: 50px 30px;
+  padding: 50px;
+  background-image: linear-gradient(to left, #8e9aaf, #053c5e);
+  border-radius: 10px;
+}
+
+/* Seletor filho */
+header > img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%; 
+  box-shadow: 5px 5px 10px black;
+}
+
+section{
+  background-color: #eeebd0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px black;
+  border: 1px solid red;
+}
+
+footer{
+  text-align: center;
+  background-color: #eeebd0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px black;
+  margin-top: 20px;
+}
+
+/* Seletor Descendente */
+
+footer li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+footer i{
+  font-size: 36px !important;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.cor-verde{
+  color:green;
+}
+.cor-azul{
+  color: blue;
+}
+.cor-preto{
+  color:black
+}
